@@ -1,0 +1,2 @@
+CREATE ROLE dbuser WITH LOGIN ENCRYPTED PASSWORD 'dbpwd';
+CREATE DATABASE mfdoctest_db OWNER dbuser;
